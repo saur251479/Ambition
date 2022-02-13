@@ -1,0 +1,216 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #ccc;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  header {
+    background: #000;
+    height: 100px;
+    position: relative;
+  }
+  
+  header .logo{
+    width: 130px;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+  }
+  
+  /* 1단계 */
+  #gnb > ul > li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* 2단계 */
+  #gnb .depth2 > li > a {
+    font-size: 13px;
+  }
+  
+  #gnb {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+  }
+  
+  #gnb > ul > li {
+    float: left;
+    margin-left: 10px;
+    min-width: 100px;
+    text-align: center;
+  }
+  
+  #gnb > ul > li:last-child {
+    width: auto;
+    margin-left: 30px;
+  }
+  
+  /* 버튼 */
+  #gnb .event-link {
+    background: #1860c9;
+    display: block;
+    padding: 5px 50px 5px 30px;
+  }
+  
+  /* 2단계 메뉴 액션 */
+  #gnb .depth2 {
+    display: none;
+    margin-top: 1em;
+  }
+  
+  #gnb .depth2.on {
+    display: block;
+  }
+  
+  #gnb .depth2 > li {
+    margin-bottom: 5px;
+  }
+  
+  /* 섹션 */
+  .section-bg {
+    width: 100%;
+    height: 800px;
+    background: #666;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+  }
+  
+  .section-bg .title-group {
+    /* outline: 2px solid red; */
+    text-align: center;
+    color: #fff;
+  }
+  
+  .section-bg .title-group .img {
+    width: 450px;
+  }
+  
+  .section-bg .title-group .img1 {
+    width: 500px;
+  }
+
+  .section-bg .title-group .img2 {
+    width: 550px;
+  }
+
+  .section-bg .title-group .logo1 {
+    width: 600px;
+  }
+  
+  .section-bg .title-group h2 {
+    margin-top: 1em;
+  }
+
+  .section-bg .title-group .icon {
+      padding-top: 50px;
+      width: 35px;
+}
+
+  .section-bg .title-group .icon1 {
+      width: 90px;
+  }
+
+  .instagram {
+      position: absolute;
+      padding-top: 250px;
+      right: 0;
+      padding-right: 450px;
+  }
+  
+  .section-bg .title-group .info-artist a{
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .section-bg .title-group .info-artist > li {
+    display: inline-block;
+    margin-right: 2.5em;
+  }
+  
+
+  #AMBITION {
+      background-image: url(./images/bg_logo.jpeg);
+  }
+
+  #changmo {
+    background-image: url(./images/bg_c.jpg);
+  }
+
+  #leellamarz {
+    background-image: url(./images/bg_l.jpg);
+  }
+
+  #ashisland {
+    background-image: url(./images/bg_a.jpg);
+  }
+  
+  #hashswan {
+    background-image: url(./images/bg_h.jpg);
+  }
+
+  .info-artist li.instagram > p { 
+      font-size: 13px; 
+      color: #000;
+    }
+  
+  footer {
+    position: relative;
+    background: #363636;
+    color: #9b9b9b;
+    font-size: 12px;
+    overflow: hidden;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 58px;
+  }
+  
+  footer .copy {
+    font-size: 10px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+  
+  .footer-nav a{
+    color: #9b9b9b;
+  }
+  
+  footer .footer-logo {
+    float: left;
+    margin-left: 30px;
+    margin-top: 13px;
+  }
+  
+  footer .footer-nav {
+    float: right;
+    /* outline: 1px solid red; */
+    margin-right: 30px;
+    margin-top: 13px;
+  }
+  
+  footer .footer-nav > li {
+    display: inline-block;
+    margin-left: 2em;
+  }
